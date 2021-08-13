@@ -1,0 +1,137 @@
+/*NAVIGATION*/
+#navigation{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: thistle;
+}
+.re{
+    text-align: right;
+}
+.lg{
+    text-align: center;
+}
+.brand{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 7px;
+}
+.navbar-brand{
+    margin: 0;
+}
+@media (max-width: 989px){
+    .re {
+        text-align: left;
+    }
+    .lg{
+        text-align: left;
+    }
+}
+@media (max-width: 767px){
+    .re {
+        text-align: center;
+    }
+    .lg{
+        text-align: center;
+    }
+    .brand{
+        text-align: center;
+        letter-spacing: 1rem;
+    }
+}
+#filters{
+    margin: 30px 0 30px 0;
+    text-align: center;
+
+}
+#card-event{
+    margin: 40px 10%;
+}
+.card-img-top{
+    height: 25rem;
+}
+#footer{
+    margin-bottom: 0;
+    background-color: thistle;
+    text-align: center;
+}
+#footer .icon{
+    margin: 10px 20px;
+    font-size: 1.5rem;
+}
+
+/*LOGIN*/
+#login{
+    display: none;
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+    float: left;   
+    text-align: center;
+    background: darkgray;
+    margin: 10% 20%;
+    padding: 5% 0;
+}
+#login h2{
+    margin-bottom: 15%;
+}
+form .form-group i,.input-email,.input-password{
+    display: inline-block;
+}
+.input-email,.input-password{
+    width: 100%;
+    overflow: hidden;
+}
+.form-login{
+    width: 70%;
+    padding-left: 30%;
+}
+@media (max-width: 700px){
+    .form-login{
+        width: 90%;
+        padding-left: 10%;
+    }
+}
+.form-group{
+    background:rgba(47, 45, 45,1);
+    border-radius: 20px;
+    margin: 15px 0;
+    display: flex;
+}
+.form-group .text-area{
+    padding: 10px 0 10px 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    background: transparent;
+    color: #ffff;
+    border: none;
+}
+.form-group i{
+    color: #ffff;
+    font-size: 1.2rem;
+    padding-top: 5px;
+    padding-left: 10px;    
+}
+.form-group .button-login{
+    padding: 10px 0 10px 0px;
+    letter-spacing: 1rem;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #ffff;
+    border: none;
+    background: transparent;
+}
+.button{
+    background:rgba(49,24, 127,.79);
+    display: block;
+}
+#register{
+    display: none;
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+    float: left;    
+    text-align: center;
+    background: darkgray;
+    margin: 10% 20%;
+    padding: 5% 0;
+
+}
