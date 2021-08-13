@@ -1,0 +1,28 @@
+Bussines Rules 
+<Log In>
++To be able to use the tools that provide the web page, is necesary create an acount.
++It will possible to register with Google, Facebook acount or with email.
+<Principal Page>
++If is the first time visiting the page show an introductional vent
++List the main events and the most recent
++Add a filter system to search especific events
+<Acount Page>
++Show a list of the events registred
++Provide diferent options to configure the acount
+<Create Event>
++The user have to provide the information necesary: Title, description, Pictures, location, cost, contact info
++The event card must have, a main title, picture  and little description
+
+
+
+
+<section id="filters">
+        <div class="container">
+            <div class="row">
+                <a href="" class="col-lg-3">Destacado</a>
+                <a href="" class="col-lg-3">Novedades</a>
+                <a href="" class="col-lg-3">Recientes</a>
+                <a href="" class="col-lg-3">Categorias</a>
+            </div>
+        </div>
+</section>
